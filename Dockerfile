@@ -32,5 +32,5 @@ COPY ./index.php /usr/index.php
 
 RUN chmod +x /usr/index.php
 
- CMD ["php usr/index.php"]
+CMD [ "php", "/usr/index.php"]
 
